@@ -1,1 +1,1 @@
-"# Autenticaá∆o JWT com Node"  
+"# Autentica√ß√£o JWT com Node"  
