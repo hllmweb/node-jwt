@@ -32,7 +32,7 @@ function verifyJWT(req, res, next){
     });
 }
 
-
+// rota protegida com JWT
 app.get('/clientes', verifyJWT, (req, res, next) => { 
     console.log(`${req.userId}`)
     console.log("Retornou todos clientes!");
